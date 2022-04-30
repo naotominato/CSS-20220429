@@ -1,15 +1,17 @@
+* {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
 .body {
   max-width: 100%;
   width: 1000px;
 }
 
-.practice {
-  margin: 0 10%;
-}
-
 .header {
   margin-top: 50px;
   height: 50px;
+  margin: 0 2%;
 }
 
 .header_text {
@@ -36,9 +38,9 @@
   font-weight: bold;
 }
 
-.main_text {
+.main_content {
   width: 100%;
-  margin: 35% auto 10%; 
+  margin: 25% auto 2%; 
   display: inline-block;
 }
 
@@ -49,17 +51,17 @@
 .color_box {
   background: #233B6C;
   display: inline-block;
-  padding: 6% 42%;
+  padding: 6% 39%;
   margin-top: -15px;
   position: relative;
 }
 
 .img{
-  width: 50%;
-  height: 50%;
+  width: 58%;
+  height: 58%;
   position: absolute;
-  top: -190%;
-  right: -25%;
+  top: -205%;
+  right: -29%;
 }
 
 .img img {
